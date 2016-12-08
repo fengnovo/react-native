@@ -1,4 +1,4 @@
-# RN-test  
+# RN-test（本例改编自https://github.com/yj1438/RN-navigator-frame）  
 ## React-Native 统一 navigator 路由入口
 
 背景：RN 试用了一段时间了，其中 navigator 做为一个核心组件控制着整个 rnApp 的页面切换。之前写 demo 和网上见到的一些例子，navigatorr 使用方式各不相同，多数还都是到切换时才会从头引用。如下：
