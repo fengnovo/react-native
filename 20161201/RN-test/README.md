@@ -10,6 +10,5 @@
 ![8.png](pics/8.png)  
 ![9.png](pics/9.png)  
 ![10.png](pics/10.png)  
-![11.png](pics/11.png)  
 
 
