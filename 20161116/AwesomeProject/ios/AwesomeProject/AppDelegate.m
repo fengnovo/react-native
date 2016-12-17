@@ -16,9 +16,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  NSURL *jsCodeLocation = [NSURL URLWithString:@"http://192.168.1.102:8081/index.ios.bundle"];
-
+  NSURL *jsCodeLocation = [NSURL URLWithString:@"http://192.168.1.101:8081/index.ios.bundle?platform=ios&dev=true"];
+  
   jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"src/index.ios" fallbackResource:nil];
+  
+  jsCodeLocation = [NSURL URLWithString:@"http://192.168.1.101:8081/index.ios.bundle?platform=ios&dev=true"];
+
 
   RCTRootView *rootView = [[RCTRootView alloc] initWithBundleURL:jsCodeLocation
                                                       moduleName:@"AwesomeProject"
