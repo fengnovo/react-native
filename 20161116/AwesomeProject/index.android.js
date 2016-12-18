@@ -17,7 +17,7 @@ export default class AwesomeProject extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          黄云锋1
+          黄云锋 Hello World!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
