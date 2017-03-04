@@ -1,2 +1,2 @@
 # react-native
-RN练习
+RN练习练习demo
