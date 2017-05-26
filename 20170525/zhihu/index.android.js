@@ -13,4 +13,4 @@ import {
   
 import App from './src/App'
 
-AppRegistry.registerComponent('zhihu', () => App);
+AppRegistry.registerComponent('AwesomeProject', () => App);
